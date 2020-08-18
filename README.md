@@ -10,7 +10,7 @@ Prática de construção de um formulário de página web. / To practice buildin
 Atividade pontuada. / Grading task.
 
 **Tecnologias** / **Technologies**
-HTML, CSS, PHP
+HTML, CSS
 
 **Autor** / **Author**
 Foto | Nome | GitHub | Likedin | E-mail
