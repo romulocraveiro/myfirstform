@@ -1,0 +1,81 @@
+
+
+* {box-sizing: border-box;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family:  'Libre Baskerville', sans-serif;
+  
+} 
+
+.input-container {
+  display: table;
+  width: 60%;
+  margin-bottom: 15px;
+  
+  
+}
+
+.icon {
+  padding: 10px;
+  background:rgb(79, 7, 88);
+  color: white;
+  min-width: 50px;
+  text-align: center;
+  border-radius: 10px 0px 0px 10px;
+  height: 40px;
+  /*Tive que inserir a palavra "icon" em todos as linhas com "i", pois o link automático do fontawesome 
+  não a incluía, de modo que o código que aprendi na página da w3schools não funcionava*/
+}
+
+
+.input-field {
+  width: 50%;
+  padding: 10px;
+  outline: none;
+  border-radius: 0px 10px 10px 0px;
+
+}
+
+.input-field:focus {
+  border: 2px solid  rgb(79, 7, 88);
+}
+
+
+.btn {
+  background-color:  rgb(79, 7, 88); /* rgb(83, 5, 94)*/
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 15%;
+  opacity: 0.9;
+  border-radius: 10px 10px 10px 10px;
+  
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+body{
+    align-content: center;
+    background-image: url("../img/pexels-frank-cone-3279307.jpg");
+    /*Foto de Frank Cone no Pexels*/
+    background-size: cover;
+    text-align: center;
+}
+h1{
+    color: rgb(191, 164, 216);
+    padding-top: 30px;
+    
+}
+::placeholder {
+
+  
+  color: blueviolet;
+}
+
+form {
+  color: rgb(191, 164, 216);
+}

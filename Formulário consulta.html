@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Formulário</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+    <script src="https://kit.fontawesome.com/d6e302a14f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+</head>
+
+    
+  <body>
+
+    <div class=título-página>
+
+        <h1>Solicitação de Consulta Astrológica</h1>
+        
+    </div>
+
+        <form action="/action_page.php">
+
+            <h2>Formulário</h2>
+
+            <div class="input-container">
+                <i class="far fa-user icon"></i> <!--Tive que inserir a palavra "icon" em todos as linhas com 
+                "i", pois o link automático do fontawesome não a incluía, de modo que o código que aprendi
+                na página da w3schools não funcionava-->
+                <input class="input-field" type="text" placeholder="Nome completo" name="usrnm">
+            </div>
+          
+            <div class="input-container">
+                <i class="fas fa-envelope-square icon"></i>
+                <input class="input-field" type="text" placeholder="Email" name="email">
+            </div>
+          
+            <div class="input-container">
+                <i class="fas fa-phone-square-alt icon"></i>
+                <input class="input-field" type="tel" placeholder="Número de telefone" name="tel">
+            </div>
+
+            <div class="input-container">
+                <i class="far fa-calendar-alt icon"></i>
+                <input class="input-field" type="text" placeholder="Data de nascimento dd/mm/aaaa" name="date">
+            </div> <!--Decidi não usar o type "date" porque desaparece o placeholder-->
+
+            <div class="input-container">
+                <i class="far fa-clock icon"></i>
+                <input class="input-field" type="text" placeholder="Hora exata de nascimento no formato 24h" name="date">
+            </div>
+
+            <div class="input-container">
+                <i class="fas fa-globe-americas icon"></i>
+                <input class="input-field" type="text" placeholder="Cidade, estado e país de nascimento" name="city">
+            </div>
+          
+            <button type="submit" class="btn">ENVIAR</button>
+        </form>
+
+
+
+  </body>
+
+
+</html>
+
+<!-- https://fontawesome.com/license-->
+<!---->
