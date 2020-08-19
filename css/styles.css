@@ -2,14 +2,14 @@
 
 * {box-sizing: border-box;
   text-align: center;
-  margin-left: auto;
+  margin-left: auto; /*Essas duas linhas centralizam o formulário*/
   margin-right: auto;
   font-family:  'Libre Baskerville', sans-serif;
   
 } 
 
 .input-container {
-  display: table;
+  display: table; /*Ajuste para os contêineres e ícones ficarem grudados*/
   width: 60%;
   margin-bottom: 15px;
   
@@ -23,11 +23,11 @@
   min-width: 50px;
   text-align: center;
   border-radius: 10px 0px 0px 10px;
-  height: 40px;
+  height: 40px; /*Sem este ajuste, os ícones ficavam desalinhados*/
+
   /*Tive que inserir a palavra "icon" em todos as linhas com "i", pois o link automático do fontawesome 
   não a incluía, de modo que o código que aprendi na página da w3schools não funcionava*/
 }
-
 
 .input-field {
   width: 50%;
@@ -68,11 +68,11 @@ body{
 h1{
     color: rgb(191, 164, 216);
     padding-top: 30px;
+    padding-bottom: 20px;
     
 }
 ::placeholder {
-
-  
+ 
   color: blueviolet;
 }
 
