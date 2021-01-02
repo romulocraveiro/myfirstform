@@ -25,8 +25,9 @@
   border-radius: 10px 0px 0px 10px;
   height: 40px; /*Sem este ajuste, os ícones ficavam desalinhados*/
 
-  /*Tive que inserir a palavra "icon" em todos as linhas com "i", pois o link automático do fontawesome 
-  não a incluía, de modo que o código que aprendi na página da w3schools não funcionava*/
+  /*Tive que inserir a palavra "icon" em todos as linhas com "i", 
+  pois o link automático do fontawesome não a incluía, 
+  de modo que o código que aprendi na página da w3schools não funcionava*/
 }
 
 .input-field {
@@ -34,7 +35,8 @@
   padding: 10px;
   outline: none;
   border-radius: 0px 10px 10px 0px;
-
+  background-color:rgb(215, 221, 228) /*Branco fica muito luminoso,
+  desagradável ao olhar*/
 }
 
 .input-field:focus {
@@ -62,7 +64,9 @@ body{
     align-content: center;
     background-image: url("../img/pexels-frank-cone-3279307.jpg");
     /*Foto de Frank Cone no Pexels*/
-    background-size: cover;
+    background-size: cover; /*Essa linha faz com que a imagem se expanda e 
+     cubra toda a página. Se fosse "contain, por exemplo, a imagem se 
+     repetiria até preencher toda a página*/
     text-align: center;
 }
 h1{
@@ -74,6 +78,9 @@ h1{
 ::placeholder {
  
   color: blueviolet;
+
+  
+  
 }
 
 form {
